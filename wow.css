@@ -3,7 +3,7 @@
 .mCustomScrollbar {
   -ms-touch-action: pinch-zoom;
   touch-action: pinch-zoom;
-/* direct pointer events to js */
+/* direct pointer events to js DONT STEAL IT :( JK . Its open source boi.... */
 }
 .mCustomScrollbar.mCS_no_scrollbar,
 .mCustomScrollbar.mCS_touch_action {
