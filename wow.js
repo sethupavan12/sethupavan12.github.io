@@ -417,7 +417,7 @@ var Submit = {
     //  WAITING
     Submit.view('[data-status=waiting]', template);
 
-    //  AJAX
+    //  AJAX THE HEADACHE
     $.ajax({
       type: 'POST',
       url: 'includes/php/' + form + '.php',
@@ -432,7 +432,7 @@ var Submit = {
     });
   },
 
-  //  CALLBACK
+  //  CALLBACK STOLEN
   callback: function (status, form, template, fields) {
     setTimeout(function () {
 
