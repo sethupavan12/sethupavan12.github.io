@@ -2,7 +2,7 @@ import os
 import openai
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = "s"
 
 
 # The following code demonstrates how to use the AI API with a local project.
