@@ -14,6 +14,7 @@ $(document).ready(function () {
   });
 });
 
+
 function inputTest(that) {
   var field = $(that).closest('.field');
   var form = $(that).closest('form, .form');
